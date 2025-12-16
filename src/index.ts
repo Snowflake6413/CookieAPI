@@ -3,7 +3,7 @@ import { bakeCookie, deleteCookie, eatCookie, listCookies } from "./db/queries"
 
 const app = new Hono()
 
-app.get("/", (c) => c.text("meow!"))
+app.get("/", (c) => c.text("simple baking API for some cookies! santa and the elves would like some cookies! :D"))
 
 
 // 1. cookie count
