@@ -2,7 +2,7 @@
   "name": "my-project",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
-    "start": "bun x drizzle-kit push && bun run src/index.ts"
+    "start": "bunx drizzle-kit push && bun run src/index.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.15.15",
