@@ -6,6 +6,6 @@ export default defineConfig({
   schema: "./src/db/schema.ts",
   dialect: "sqlite",
   dbCredentials: {
-    url: "file:/app/my.db",
+    url: "file:/app/cooleyDB/my.db",
   },
 })
